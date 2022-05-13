@@ -1,0 +1,34 @@
+.ploblems {
+    position: relative;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    background-image: linear-gradient(to bottom,
+            var(--color-black) 0 60%,
+            var(--color-white)60% 100%);
+}
+
+.problems__icon {
+    display: none;
+}
+
+.problems__help {
+    color: var(--accent-color);
+}
+
+.problems__wrapper {
+    display: flex;
+}
+
+// @media screen and (min-width: 768px) {
+//     .section-title {
+//         font-size: 26px;
+//         line-height: 1.3;
+//     }
+// }
+
+// @media screen and (min-width: 1680px) {
+//     .section-title {
+//         font-size: 46px;
+//         line-height: 1.3;
+//     }
+// }
